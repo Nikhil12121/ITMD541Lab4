@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+  
+    <title>Sunrise Sunset Dashboard</title>
+</head>
+<body>
+    <header class="custom-header">
+        <h1>Sunrise Sunset Dashboard</h1>
+        <h4>ITMD541 - Nikhil Bhosale</h4>
+    </header>
+
+    <main class="custom-main">
+        <div id="location-form" class="custom-location-form">
+            <label for="location-input">Enter Your Location:</label>
+            <input type="text" id="location-input" placeholder="City, Country">
+            <button onclick="getSunriseSunset()" class="custom-search-btn">Get Info</button>
+            <button onclick="getCurrentLocation()" class="custom-location-btn">Use My Location</button>
+        </div>
+
+        <div id="result-container" class="custom-result-container" style="visibility: hidden">
+            <!-- Sunrise and sunset data will be displayed here -->
+        </div>
+    </main>
+
+    <footer class="custom-footer">
+        <p>Powered by <a href="https://sunrisesunset.io/api/">SunriseSunset.io</a></p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
