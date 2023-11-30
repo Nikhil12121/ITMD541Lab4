@@ -1,0 +1,252 @@
+body {
+    font-family: 'Arial', sans-serif;
+    width: 100%;
+    height: 950px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f0f0f0;
+    color: #333;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.15)),
+    url("footer.avif");
+    background-size: 100% 100%;
+    object-fit: cover;
+    background-repeat: no-repeat no-repeat;
+}
+
+/* Original Header Styles */
+header {
+    background-color: #333;
+    padding: 5px;
+    text-align: center;
+    color: #fff;
+}
+
+/* Original Main Styles */
+main {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 60px;
+    background-color: goldenrod;
+}
+
+/* Original Location Form Styles */
+#location-form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    
+}
+
+label {
+    margin-right: 10px;
+    color: #555;
+}
+
+input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    color: #333;
+    border-radius: 5px;
+    transition: border-color 0.3s ease-in-out;
+    flex: 1;
+}
+
+input:hover,
+input:focus {
+    border-color: rgb(51, 51, 51);
+}
+
+button {
+    background-color: rgb(51, 51, 51);
+    color: #fff;
+    padding: 10px 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+/* Original Result Container Styles */
+#result-container {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    gap: 20px;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+/* Original Big Card Styles */
+.big-card {
+    background-color: #333;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.big-card h2 {
+    margin-bottom: 10px;
+    color: #bbb;
+}
+
+/* Original Header Content Styles */
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+/* Original Additional Info Styles */
+.additional-info {
+    flex-grow: 1;
+}
+
+.additional-info h3 {
+    margin-bottom: 10px;
+    color: #bbb;
+}
+
+.additional-info p {
+    color: #ccc;
+}
+
+/* Original Card Styles */
+.card {
+    background-color: #333;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+    color: #fff;
+    margin-right: 10px;
+}
+
+.card img {
+    width: 80px;
+    height: 80px;
+}
+
+.card h3 {
+    margin-bottom: 10px;
+    color: #bbb;
+}
+
+.card p {
+    color: #ccc;
+}
+
+/* Original Additional Info Styles */
+.additional-info {
+    margin-top: 20px;
+}
+
+.additional-info h3 {
+    margin-bottom: 10px;
+    color: #bbb;
+}
+
+.additional-info p {
+    color: #ccc;
+}
+
+/* Original Footer Styles */
+footer {
+    background-color: #333;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    color: #bbb;
+}
+
+/* Custom Styles */
+.custom-header {
+    background-color: #4a3a9d;
+    color: #fff;
+}
+
+.custom-main {
+    /* Add your custom main styles here */
+
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Soft box shadow */
+    background-color: rgba(0,0,0,0.25);
+
+}
+
+.custom-location-form {
+    /* Add your custom location form styles here */
+    background-color: #f5f5f5; /* Light gray background */
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+}
+
+.custom-location-form label {
+    /* Add your custom label styles here */
+    font-weight: bold;
+}
+
+.custom-location-form input {
+    /* Add your custom input styles here */
+    margin-top: 5px;
+}
+
+.custom-search-btn, .custom-location-btn {
+    /* Add your custom button styles here */
+    background-color: #3498db; /* Blue button */
+    color: #fff;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.custom-search-btn:hover, .custom-location-btn:hover {
+    background-color: #2072a1; /* Darker blue on hover */
+}
+
+.custom-result-container {
+    /* Add your custom result container styles here */
+    background-color: #f9f9f9; /* Light background for results */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    
+}
+
+.custom-footer {
+    /* Add your custom footer styles here */
+    background-color: #4CAF50; /* Green footer background */
+    padding: 15px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    color: #fff;
+    background-color: #4a3a9d;
+}
+
+/* Media Query for Mobile Devices */
+@media only screen and (max-width: 600px) {
+    #location-form {
+        flex-direction: column;
+    }
+    /* Add your custom mobile styles here */
+}
